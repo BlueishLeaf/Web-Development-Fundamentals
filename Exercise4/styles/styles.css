@@ -1,0 +1,64 @@
+header, #mainFooter {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background: #333;
+}
+
+main{
+    display: block;
+}
+
+body {
+    background-color: antiquewhite;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2 {
+    color: darkred;
+}
+
+p{
+    font-family:serif;
+    color: darkslategrey;
+}
+
+#mainText{
+    color: black;
+    font-family: Arial;
+    text-align: justify;
+}
+
+.fullWidthContent {
+    width:100%;
+}
+
+a {
+    color: blue;
+    font-size: 15px;
+    text-align: center;
+}
+
+.anchorLarge {
+    color: chartreuse;
+    font-size:35px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul li{
+    display: inline;
+}
+li a{
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
