@@ -1,0 +1,147 @@
+.logodisplay
+{
+    padding-left: 180px;
+    float: left;
+    margin-right: 10px;
+    width: 110px;
+    height: 100px;
+}
+
+header
+{
+    background-image: url("../images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    height: 200px;
+    color: aqua;
+    border: 1px solid orange;
+    border-radius: 25px;
+}
+
+nav
+{
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-radius: 25px;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+
+}
+
+nav ul li
+{
+    text-align: center;
+    font-size: 1.2em;
+    display: inline;
+    padding: 15px;
+    background-color: #cccccc;
+
+
+
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    background-color: aqua;
+}
+
+#active
+{
+    pointer-events: none;
+    cursor: default;
+}
+
+body
+{
+    font-family: Verdana;
+    background-color: black;
+    color: white;
+}
+
+#content
+{
+    float: left;
+    width: 80%;
+    margin-right: 10px;
+    border: 2px solid green;
+    border-radius: 25px;
+
+}
+
+.showimages
+{
+    float: right;
+    border: 3px solid white;
+    margin-top: 0;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#bigPic
+{
+    width: 70%;
+    border: 3px solid white;
+}
+
+.manager
+{
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 500px;
+}
+
+footer
+{
+    border: 2px solid orange;
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #cccccc;
+    position: relative;
+
+}
+footer ul
+{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    color: white;
+}
+
+aside
+{
+    border: 1px solid red;
+    border-radius: 25px;
+    width: 18%;
+    float: right;
+}
+
+aside ul
+{
+    list-style-type: none;
+}
+
+.course
+{
+    text-align: center;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.col

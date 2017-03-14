@@ -1,0 +1,73 @@
+nav
+{
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+
+header
+{
+    background-color: #B2B2B2;
+    padding: 30px;
+}
+
+footer
+{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+footer p
+{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+table
+{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+
+th, tr, td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+body
+{
+    font-family: Verdana;
+}
