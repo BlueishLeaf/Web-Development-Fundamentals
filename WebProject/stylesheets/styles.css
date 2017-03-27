@@ -60,7 +60,7 @@ aside{
     text-align: center;
 }
 
-aside h1{
+h1{
     color: #ff6600;
     font-family: Arial;
 }
@@ -146,5 +146,10 @@ header a{
 
 table, th, td {
     border: 1px solid white;
+    color: white;
+}
+
+a {
+    text-decoration: none;
     color: white;
 }
