@@ -1,5 +1,5 @@
 #section-bg{
-    width: 60%;
+    width: 30%;
     height: 100%;
     background: black;
     border-radius: 50px;
@@ -7,27 +7,28 @@
     padding-left: 5%;
     padding-top: 2%;
     padding-right: 5%;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 #aside-bg{
-    width: 29%;
-    height: 935px;
+    width: 25%;
+    height: 800px;
     background: black;
     border-radius: 50px;
     position: fixed;
-    margin-left: 70%;
+    margin-left: 60%;
+    margin-top: 2%;
 }
 
 #header_box{
-    width: 60%;
+    width: 90%;
     height: 10%;
     background: black;
-    border-radius: 50px;
     float: left;
     padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 0;
-    margin-bottom: 10px;
+    padding-right: 6%;
+    margin: -10px -10px;
 }
 header{
     font-family: Arial, serif;
