@@ -153,3 +153,54 @@ a {
     text-decoration: none;
     color: white;
 }
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border: 3px solid #404040;
+    border-radius: 1em;
+    margin-bottom: 50px;
+    color: #ff6600;
+    font-family: Arial;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+
+}
+
+#submitButton {
+    padding-left: 90px;
+}
+
+form button {
+    margin: 20px 20px 20px 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #ff6600;
+    border-color: #ff6600;
+    font-size: 18px;
+}
+
+textarea {
+    vertical-align: top;
+    height: 7em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+#formHeader{
+    margin: 0;
+    text-align: center;
+}

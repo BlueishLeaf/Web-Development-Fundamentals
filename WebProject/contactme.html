@@ -9,9 +9,9 @@
     body{
         background-color: #404040;
     }
-
-    h2{
-        text-align: center;
+    address{
+        color: white;
+        font-size: larger;
     }
 </style>
 <body>
@@ -53,9 +53,36 @@
 <section>
     <div id="section-bg">
         <section>
-            <h2>Send me a question!</h2>
+            <h2>Contact Details</h2>
+            <address>
+                John Smith<br>
+                Lalaland<br>
+                PO Box XYZ<br>
+                Sealand
+            </address>
+        </section>
+        <section>
+            <h2 id="formHeader">Send me a question!</h2>
             <form>
-
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="user_mail">
+                </div>
+                <div>
+                    <label for="question">Message:</label>
+                    <textarea id="question" name="user_question"></textarea>
+                </div>
+                <div id="submitButton">
+                    <button type="submit">Send your question</button>
+                </div>
             </form>
         </section>
     </div>
