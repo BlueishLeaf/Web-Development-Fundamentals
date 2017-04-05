@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-    <title>About Me</title>
-</head>
 <style>
-    body{
-        background-color: #404040;
-    }
     .divided{
         -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
         -moz-columns: 100px 2; /* Firefox */
         columns: 100px 2;
     }
 </style>
+<meta charset="UTF-8">
+<meta name="description" content="Pc Part News and Reviews">
+<meta name="keywords" content="PC,Component,Review,Tech,News">
+<meta name="author" content="John Smith">
+<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+<title>About Me</title>
 <body>
 <header id = "top">
     <div id = "header_box">
-        <h1>PC Part Purveyor</h1>
+        <img src="images/logo.png" alt="logo" style="float: left;margin-right: 30px; height: 70px; padding-top: 10px">
         <nav id = "header_nav">
             <ul>
                 <li><div class="dropdown">
@@ -33,12 +31,11 @@
                 <li><div class="dropdown">
                     <button class="dropbtn">Reviews</button>
                     <div class="dropdown-content">
-                        <a href="#">GeForce GTX 1080</a>
-                        <a href="#">Intel 750 Series</a>
-                        <a href="#">Corsair Platinum PSU</a>
+                        <a href="geforceReview.html">GeForce GTX 1080</a>
+                        <a href="intelReview.html">Intel 750 Series</a>
+                        <a href="corsairReview.html">Corsair Platinum PSU</a>
                     </div>
                 </div>
-                </li>
                 </li>
                 <li><div class="dropdown">
                     <a href="aboutme.html"><button class="dropbtn">About Me</button></a>
@@ -54,23 +51,22 @@
 <section>
     <div id="section-bg">
         <section>
-            <h1>Who am I?</h1>
+            <h3>Who am I?</h3>
             <p class = "divided">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
             </p>
-            <img src="images/avatar.jpg" style="float: right; padding-bottom: 50px; margin-left: 30px">
+            <img src="images/avatar.jpg" alt="Portrait" style="float: right; padding-bottom: 50px; margin-left: 30px;height: 40%;width: 50%">
         </section>
         <section>
-            <h1>My Company</h1>
+            <h3>My Company</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
             </p>
-            <h1>My Goals</h1>
+            <h3>My Goals</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
             </p>
         </section>
-        <div id = "bottom"></div>
     </div>
 </section>
 <aside>
@@ -81,29 +77,29 @@
         <nav>
             <ul>
                 <li><a href="home.html#nvidia">NVidia Supercomputer!</a></li>
-                <br>
                 <li><a href="home.html#monitor">NEC New Curved Ultrawide QHD</a></li>
-                <br>
                 <li><a href="home.html#hyperx">HyperX Adds Brown And Red Switch Options</a></li>
-                <br>
             </ul>
         </nav>
         <br>
         <h2>Recent Reviews</h2>
         <nav>
             <ul>
-                <li><a href="#nvidia">NVidia GeForce GTX 1080 GPU</a></li>
-                <br>
-                <li><a href="#monitor">Intel 750 Series PCIe SSD</a></li>
-                <br>
-                <li><a href="#hyperx">Corsair Platinum 1200W PSU</a></li>
+                <li><a href="geforceReview.html">NVidia GeForce GTX 1080 GPU</a></li>
+                <li><a href="intelReview.html">Intel 750 Series PCIe SSD</a></li>
+                <li><a href="corsairReview.html">Corsair Platinum 1200W PSU</a></li>
             </ul>
         </nav>
         <br>
         <h2>Page Navigation</h2>
-        <a href="#top"><h3>Top of page</h3></a>
-        <a href="#bottom"><h3>Bottom of page</h3></a>
+        <a href="#header_box"><h3>Top of page</h3></a>
+        <a href="#footer_box"><h3>Bottom of page</h3></a>
     </div>
 </aside>
+<footer>
+    <div id = footer_box>
+        <h4>Copyright© 2017 - This is a college project</h4>
+    </div>
+</footer>
 </body>
 </html>

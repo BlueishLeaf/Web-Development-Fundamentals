@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    address{
-        color: white;
-        font-size: larger;
-    }
-    .red-star{
-        color: red;
-    }
-</style>
 <meta charset="UTF-8">
 <meta name="description" content="Pc Part News and Reviews">
 <meta name="keywords" content="PC,Component,Review,Tech,News">
 <meta name="author" content="John Smith">
 <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-<title>Contact Me</title>
+<title>Intel 750 Series Review</title>
 <body>
-<header id = "top">
+<header>
     <div id = "header_box">
         <img src="images/logo.png" alt="logo" style="float: left;margin-right: 30px; height: 70px; padding-top: 10px">
         <nav id = "header_nav">
@@ -52,61 +43,30 @@
 </header>
 <section>
     <div id="section-bg">
-        <section>
-            <h2>Contact Details</h2>
-            <address>
-                John Smith<br>
-                Lalaland<br>
-                PO Box XYZ<br>
-                London
-            </address>
-        </section>
-        <section>
-            <h2>Map of my Office</h2>
-            <div id="googleMap" style="width:100%;height:400px;"></div>
-
-            <script>
-                function myMap() {
-                    var office = {lat: 51.542479, lng: 0.055098};
-                    var mapProp= {
-                        center:office,
-                        zoom:30
-                    };
-                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                    var marker = new google.maps.Marker({
-                        position: office,
-                        map: map
-                    });
-                }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC56De6anzZdJwVjns1CXG358KWve-HTR4&callback=myMap"></script>
-        </section>
-        <br>
-        <section>
-            <h2 id="formHeader">Send me a question!</h2>
-            <form action=" http://year1.ccpdev.me/FormTest.php" method="get">
-                <h4><span class="red-star">*</span> Required Fields</h4>
-                <div>
-                    <label for="firstName">First Name:<span class="red-star">*</span></label>
-                    <input type="text" id="firstName" name="first_name" placeholder="First name">
-                </div>
-                <div>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="last_name" placeholder="Last name">
-                </div>
-                <div>
-                    <label for="email">E-mail:<span class="red-star">*</span></label>
-                    <input type="email" id="email" name="user_mail" placeholder="Email address">
-                </div>
-                <div>
-                    <label for="question">Message:<span class="red-star">*</span></label>
-                    <textarea id="question" name="user_question" maxlength="500" placeholder="Message less than 500 characters"></textarea>
-                </div>
-                <div id="submitButton">
-                    <button type="submit">Send your question</button>
-                </div>
-            </form>
-        </section>
+        <article>
+            <h2>Intel 750 Series 400GB PCIe SSD Review</h2>
+            <img src="images/intel.png" alt="intel" style="height: 40%;width: 90%">
+            <h3>Our Rig</h3>
+            <ul>
+                <li>Motherboard: Asus Z170-Deluxe</li>
+                <li>Processor: Intel Core i5-6600K (not overclocked)</li>
+                <li>RAM: Corsair Vengeance 2666MHz, 16GB DDR4</li>
+                <li>Cooler: Corsair H60 liquid cooler</li>
+                <li>PSU: Corsair CX750M</li>
+                <li>GPU: Nvidia GeForce 1080</li>
+                <li>OS: Windows 10 Pro 64-bit</li>
+            </ul>
+            <br>
+            <h4>The Good</h4>
+            <p>This drive has very low latency and high sustained throughput. I have consistently seen transfers over a gigabyte per second even though it is in a PCI-e 2.0 x8 slot so has half the bandwidth it could have. Doesn't require a special controller or special drivers in Linux and didn't require a BIOS upgrade to work as a non-boot volume.</p>
+            <p>This thing is amazing. Have had it for about 1.5 years. Not a single issue. I use this computer to play Games, VR, encode 4K video from my drone, and program. RAID can't touch this thing. Below I listed a general over view of my hardware inside of computer that this SSD is installed to. PCIe SSD is the only way to go, it takes full advantage of the true speed of SSD. SATA ports are used for storage drives. </p>
+            <br>
+            <h4>The Bad</h4>
+            <p>Won't boot on an Opteron. Takes up a PCI-e slot. Runs very hot. Quite expensive.</p>
+            <br>
+            <h4>Should You Buy?</h4>
+            <p>I've tried other PCI-e solutions and had them not work well under Linux. This one works a charm.</p>
+        </article>
     </div>
 </section>
 <aside>

@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    address{
-        color: white;
-        font-size: larger;
-    }
-    .red-star{
-        color: red;
-    }
-</style>
 <meta charset="UTF-8">
 <meta name="description" content="Pc Part News and Reviews">
 <meta name="keywords" content="PC,Component,Review,Tech,News">
 <meta name="author" content="John Smith">
 <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-<title>Contact Me</title>
+<title>Corsair Platinum Review</title>
 <body>
-<header id = "top">
+<header>
     <div id = "header_box">
         <img src="images/logo.png" alt="logo" style="float: left;margin-right: 30px; height: 70px; padding-top: 10px">
         <nav id = "header_nav">
@@ -52,61 +43,26 @@
 </header>
 <section>
     <div id="section-bg">
-        <section>
-            <h2>Contact Details</h2>
-            <address>
-                John Smith<br>
-                Lalaland<br>
-                PO Box XYZ<br>
-                London
-            </address>
-        </section>
-        <section>
-            <h2>Map of my Office</h2>
-            <div id="googleMap" style="width:100%;height:400px;"></div>
-
-            <script>
-                function myMap() {
-                    var office = {lat: 51.542479, lng: 0.055098};
-                    var mapProp= {
-                        center:office,
-                        zoom:30
-                    };
-                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                    var marker = new google.maps.Marker({
-                        position: office,
-                        map: map
-                    });
-                }
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC56De6anzZdJwVjns1CXG358KWve-HTR4&callback=myMap"></script>
-        </section>
+        <h2>Corsair Platinum PSU Plus 750W</h2>
+        <img src="images/psu.png" alt="corsair" style="height: 40%;width: 90%">
+        <h3>Our Rig</h3>
+        <ul>
+            <li>Motherboard: Asus Z170-Deluxe</li>
+            <li>Processor: Intel Core i5-6600K (not overclocked)</li>
+            <li>RAM: Corsair Vengeance 2666MHz, 16GB DDR4</li>
+            <li>Cooler: Corsair H60 liquid cooler</li>
+            <li>GPU: Nvidia GeForce 1080</li>
+            <li>SSD: Samsung 850 EVO</li>
+            <li>OS: Windows 10 Pro 64-bit</li>
+        </ul>
         <br>
-        <section>
-            <h2 id="formHeader">Send me a question!</h2>
-            <form action=" http://year1.ccpdev.me/FormTest.php" method="get">
-                <h4><span class="red-star">*</span> Required Fields</h4>
-                <div>
-                    <label for="firstName">First Name:<span class="red-star">*</span></label>
-                    <input type="text" id="firstName" name="first_name" placeholder="First name">
-                </div>
-                <div>
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="last_name" placeholder="Last name">
-                </div>
-                <div>
-                    <label for="email">E-mail:<span class="red-star">*</span></label>
-                    <input type="email" id="email" name="user_mail" placeholder="Email address">
-                </div>
-                <div>
-                    <label for="question">Message:<span class="red-star">*</span></label>
-                    <textarea id="question" name="user_question" maxlength="500" placeholder="Message less than 500 characters"></textarea>
-                </div>
-                <div id="submitButton">
-                    <button type="submit">Send your question</button>
-                </div>
-            </form>
-        </section>
+        <h4>Details and Efficiency</h4>
+        <p>The entry-level model's look and feel are excellent. It's a well-built PSU with nicely chamfered edges. All of the cables are modular and flat, which can improve routing and airflow. You get access to two CPU cables, six 6+2 auxiliary connectors, 12 SATA plugs, eight Molex connectors and two floppy drive plugs. All of the cable lengths are generous except, perhaps, the SATA cables, which we prefer to be longer than the 33.5” we measured. At least you have 12 of them, qualifying the HX750i for use in a storage server.</p>
+        <p>Corsair's spec sheet mentions a single +12V rail able to deliver up to 62.5A. But for system builders who prefer multi-rail supplies, you can configure the PSU to operate that way via Corsair's software (for our testing, we stuck with a single-rail arrangement). Since 62.5A * 12V equals 750W, 100% of the PSU’s nominal power can be drawn from the 12V rail.</p>
+        <p>At low and high loads, the HX750i easily satisfies those efficiency requirements. However, at medium load, it runs into a minor issue. We calculated an efficiency of 91.96%, which is 0.04% less than the requirement. Then again, that's very close to 92%, and we're going to give it the benefit of the doubt. A second sample could show up on the other side of the cut-off. At very low loads, the HX750i’s efficiency gets worse, which is no big surprise in and of itself. But the other two PSUs we're working on do sport better numbers.</p>
+        <br>
+        <h4>Should You Buy?</h4>
+        <p>Corsair's HX750i is the company's "entry-level" 80 PLUS Platinum PSU. Despite the solder quality of the auxiliary PCB being so-so, this power supply lives up to Corsair's reputation for quality. The HX750i's fully modular cabling, configurable single- and multi-rail options and silent operation are among the premium features that can sway builders towards this PSU.</p>
     </div>
 </section>
 <aside>
